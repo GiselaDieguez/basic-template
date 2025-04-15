@@ -1,0 +1,4 @@
+export enum aboutMeEnum {
+    aboutMe = 'Psicóloga clínica con enfoque humanista, comprometida con acompañar a las personas en su camino de autoconocimiento, crecimiento personal y búsqueda de sentido. Desde una mirada profunda y empática, facilito procesos que promueven la autorrealización, la toma de decisiones conscientes y la construcción de una identidad auténtica. Mi labor se nutre de una base filosófica y de los principios de la sabiduría oriental —como la responsabilidad, la determinación y la perseverancia— integrando estos valores para fomentar una vida con propósito y bienestar emocional.',
+    aboutMeTitle = 'Sobre mi'
+}

@@ -1,0 +1,62 @@
+.container-payments{
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 16px;
+        background-image: url('../../../assets/images/payments-background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    .payments{
+        font-size: 4rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-payments-img{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        width: 100%;
+        align-items: center;
+        
+        .payments-img{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 0.3rem;
+            margin: 0 0.8rem 0 0.8rem;
+        }
+        .visa{
+            background-image: url('./assets/images/visa.png');
+            width: 100px;
+            height: 24px;
+        }
+        .masterCard{
+            background-image: url('./assets/images/masterCard.png');
+            width: 70px;
+            height: 36px;
+        }
+        .paypal{
+            background-image: url('./assets/images/paypal.png');
+            width: 68px;
+            height: 66px;
+        }
+        .mercadoPago{
+            background-image: url('./assets/images/mercadoPago.png');
+            width: 130px;
+            height: 26px;
+        }
+        .payments-border{
+            height: 100%;
+            width: 2px;
+            border-right: 2px dotted #644f44;
+        }
+    }
+}

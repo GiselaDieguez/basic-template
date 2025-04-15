@@ -1,0 +1,7 @@
+<div class="container-appointment">
+  <h2 id='appointment' class="letter-title appointment">{{this.appointmentTitle}}</h2>
+  
+  <div class="calendly-container">
+    <div class="calendly-inline-widget" [attr.data-url]="'https://calendly.com/' + appointmentUrl + '?hide_gdpr_banner=1'" style="min-width:320px"></div>
+  </div>  
+</div>

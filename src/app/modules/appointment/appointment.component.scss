@@ -1,0 +1,37 @@
+.container-appointment{
+  padding: 2rem;
+    height: 100vh;
+    background-image: url('../../../assets/images/appointment-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  .appointment{
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+
+      h2{
+        font-weight: 400;
+      }
+  }
+  
+  .calendly-container {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      min-height: 80vh; 
+    }
+     
+    .calendly-inline-widget {
+      width: 100%;
+      max-width: 63rem;
+      height: 750px;
+      border-radius: 10px;
+      overflow: hidden; 
+      box-shadow:none;
+    }
+}
