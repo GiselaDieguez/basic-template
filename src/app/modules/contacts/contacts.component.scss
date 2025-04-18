@@ -21,6 +21,10 @@
             margin-bottom: 0.8rem;
             font-weight: 400; 
         }
+
+        @include mobile {
+            font-size: 2.5rem;
+        }
     }
 
     .contact-icons{
