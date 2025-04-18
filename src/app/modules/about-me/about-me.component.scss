@@ -10,7 +10,7 @@
     padding: 70px;
 
     @include mobile{
-      height: 74%;
+      height: 98%;
     }
 
     .aboutme-grid{
@@ -60,7 +60,7 @@
       color: #5c4d4d; 
 
       @include mobile {
-        font-size: 12px;
+        font-size: 13px;
       }
     }
 
@@ -86,7 +86,7 @@
       @include mobile {
         width: 76%;
         height: 50%;
-        margin: 0;
+        margin-top: 10px;
       }
     }
 }
