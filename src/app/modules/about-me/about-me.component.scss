@@ -11,6 +11,7 @@
 
     @include mobile{
       height: 98%;
+      padding: 20px;
     }
 
     .aboutme-grid{
@@ -36,6 +37,10 @@
       height: 100%;
       text-align: center; 
       padding: 0 20px;
+
+      @include mobile{
+        padding: 0px;
+      }
     }
     
     .aboutme-title {
@@ -60,7 +65,7 @@
       color: #5c4d4d; 
 
       @include mobile {
-        font-size: 13px;
+        font-size: 16px;
       }
     }
 
@@ -86,7 +91,7 @@
       @include mobile {
         width: 76%;
         height: 50%;
-        margin-top: 10px;
+        margin-top: 1px;
       }
     }
 }
