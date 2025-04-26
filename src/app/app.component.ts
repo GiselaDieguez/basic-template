@@ -3,12 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { HeadlineComponent } from "./modules/headline/headline.component";
 import { AboutMeComponent } from "./modules/about-me/about-me.component";
 import { AppointmentComponent } from "./modules/appointment/appointment.component";
-import { PaymentsComponent } from "./modules/payments/payments.component";
+
 import { ContactsComponent } from "./modules/contacts/contacts.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeadlineComponent, AboutMeComponent, AppointmentComponent, PaymentsComponent, ContactsComponent],
+  imports: [RouterOutlet, HeadlineComponent, AboutMeComponent, AppointmentComponent,  ContactsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

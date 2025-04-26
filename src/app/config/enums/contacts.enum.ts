@@ -4,4 +4,5 @@ export enum contactsEnum {
     correo = 'urlCorreo',
     facebook = 'urlFb',
     linkedin = 'urlLkn',
+    paymentsTitle = 'Medios de pago'
 };
